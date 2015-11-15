@@ -1,0 +1,12 @@
+[submodule "bundle/bundle/vim-pathogen"]
+	path = bundle/bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "bundle/vim-pathogen"]
+	path = bundle/vim-pathogen
+	url = https://github.com/tpope/vim-pathogen.git
+[submodule "bundle/bundle/vim-watchdog"]
+	path = bundle/bundle/vim-watchdog
+	url = https://github.com/avakarev/vim-watchdog.git
+[submodule "bundle/vim-watchdog"]
+	path = bundle/vim-watchdog
+	url = https://github.com/avakarev/vim-watchdog.git

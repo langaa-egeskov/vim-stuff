@@ -2,8 +2,8 @@
 " Add lines for Pathogen
 "============================================================================
 
-    call pathogen#runtime_append_all_bundles()
-    call pathogen#helptags()
+    runtime bundle/vim-pathogen/autoload/pathogen.vim
+    execute pathogen#infect()
 
 "============================================================================
 " Use arrow keys to navigate after a :vimgrep or :helpgrep
