@@ -1,3 +1,9 @@
+"============================================================================
+" Add lines for Pathogen
+"============================================================================
+
+    call pathogen#runtime_append_all_bundles()
+    call pathogen#helptags()
 
 "============================================================================
 " Use arrow keys to navigate after a :vimgrep or :helpgrep
