@@ -16,3 +16,6 @@
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = https://github.com/langaa-egeskov/YouCompleteMe.git
+[submodule "bundle/delimitMate"]
+	path = bundle/delimitMate
+	url = https://github.com/langaa-egeskov/delimitMate.git
