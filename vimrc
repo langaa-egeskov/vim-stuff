@@ -6,6 +6,39 @@
     execute pathogen#infect()
 
 "============================================================================
+" Always on Status Line (using watchdog)
+"============================================================================
+
+    set laststatus=2
+
+"============================================================================
+" Turn on Line Numbers
+"============================================================================
+
+    set number
+
+"===========================================================================
+" Enable syntax
+"===========================================================================
+
+    syntax enable
+
+"===========================================================================
+" Set the color scheme
+" ----Light Options----   ----Dark Options----
+" * mac_classic           * darth
+" * sprinkles             * campfire
+" * pencil                * blackdust
+" * leya                  * 
+" * hemisu
+" * summerfruit256
+" * mayansmoke
+" * Surveyor
+"===========================================================================
+
+    colorscheme hemisu
+ 
+"============================================================================
 " Use arrow keys to navigate after a :vimgrep or :helpgrep
 "============================================================================
 
@@ -133,22 +166,21 @@
 " Highlight anything in the 81st column of long lines
 "============================================================================
 
-    highlight ColorColumn ctermbg=magenta
-    call matchadd('ColorColumn', '\%81v', 100)
+"    highlight ColorColumn ctermbg=magenta
+"    call matchadd('ColorColumn', '\%81v', 100)
 
 "============================================================================
 " Highlight anything in the 81st column or later
 "============================================================================
 
-    highlight ColorColumn ctermbg=magenta
-    call matchadd('ColorColumn', **'\%>80v'**, 100)
+"    highlight ColorColumn ctermbg=magenta
+"    call matchadd('ColorColumn', **'\%>80v'**, 100)
 
 
 "============================================================================
 " Fold lines according to the file's syntax
 "============================================================================
 
-    syntax enable
     set foldmethod=syntax
 
 
