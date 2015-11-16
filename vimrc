@@ -24,19 +24,21 @@
     syntax enable
 
 "===========================================================================
-" Set the color scheme
+" Set the color scheme - best are hemisu and zenburn
 " ----Light Options----   ----Dark Options----
 " * mac_classic           * darth
 " * sprinkles             * campfire
 " * pencil                * blackdust
-" * leya                  * 
-" * hemisu
+" * leya                  * zenburn 
+" * hemisu                * kolor
 " * summerfruit256
 " * mayansmoke
 " * Surveyor
+" * heroku-terminal
+" * github
 "===========================================================================
 
-    colorscheme hemisu
+    colorscheme zenburn
  
 "============================================================================
 " Use arrow keys to navigate after a :vimgrep or :helpgrep
@@ -158,7 +160,7 @@
 " Set up a permanent universal vertical marker after 80 columns
 "============================================================================
 
-    highlight ColorColumn ctermbg=magenta
+    highlight ColorColumn ctermbg=LightRed
     set colorcolumn=81
 
 
@@ -166,14 +168,14 @@
 " Highlight anything in the 81st column of long lines
 "============================================================================
 
-"    highlight ColorColumn ctermbg=magenta
+"    highlight ColorColumn ctermbg=LightRed
 "    call matchadd('ColorColumn', '\%81v', 100)
 
 "============================================================================
 " Highlight anything in the 81st column or later
 "============================================================================
 
-"    highlight ColorColumn ctermbg=magenta
+"    highlight ColorColumn ctermbg=LightRed
 "    call matchadd('ColorColumn', **'\%>80v'**, 100)
 
 
