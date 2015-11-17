@@ -22,3 +22,6 @@
 [submodule "bundle/vim-surround"]
 	path = bundle/vim-surround
 	url = https://github.com/langaa-egeskov/vim-surround.git
+[submodule "bundle/vim-javascript"]
+	path = bundle/vim-javascript
+	url = https://github.com/langaa-egeskov/vim-javascript.git
